@@ -1,0 +1,59 @@
+.Feedback, .TrainingTable {
+  margin-top: 300px;
+  width: 500px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TrainingTable {
+  margin-top: 50px;
+}
+
+.date, .passed, .TrainingTable {
+  display:flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 55.2px;
+  justify-self: end;
+  align-self:flex-end;
+  border: 1px black solid;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 50px;
+  border: 1px black solid;
+}
+
+.tableHead {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tableItem {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableBody {
+  border-radius: 10px;
+  border: 1px black solid;
+}
+
+
+.material-icons {
+  cursor: pointer;
+}
